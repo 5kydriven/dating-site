@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 70px;
+}
+
+.navigation a{
+    margin: 0 15px;
+    border: 2px solid palevioletred;
+    background-color: palevioletred;
+    border-radius: 4px;
+    padding: 7px 15px;
+}
+
+.main{
+    max-height: 85vh;
+    overflow: auto;
+    display: flex;
+    background-color: rgb(224, 224, 224);
+}
+
+.user-grid{
+    min-width: 78vw;
+    height: 83.5vh;
+    overflow: scroll;
+}
+.user-grid h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 13em);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-gap: 20px 0px;
+    padding: 10px 20px;
+    justify-items: center;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 200px;
+}
+.info{
+    height: 85px;
+    padding: 0 7px;
+    word-wrap: break-word;
+}
+
+.user-grid::-webkit-scrollbar{
+    display: none;
+}
+
+.contacts{
+    width: 100%;
+    padding: 10px 5px;
+    background-color: rgb(224, 224, 224);
+}
+.my-contact{
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 15px;
+    background-color: #fff;
+    height: 130px;
+}
+
+.title{
+    padding: 7px 0 7px 10px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.my-contact p{
+    padding: 5px 10px;
+    text-align: center;
+}
+.chat-request{
+    margin-top: 8px;
+    border: 1px solid rgb(184, 184, 184);
+    background-color: #fff;
+    border-radius: 15px;
+    height: 58vh;
+}
+.chat-request h3{
+    padding: 7px 10px;
+}
+

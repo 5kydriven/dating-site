@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box{
+    background-color: white;
+    width: 30vw;
+    height: 25vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 18px;
+}
+form{
+    width: 300px;
+    padding: 10px 50px;
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btns a{
+    margin: 0 20px;
+}
+.btns button{
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.image-box label{
+    display: block;
+    background-color: rgb(88, 88, 88);
+    margin-bottom: 20px;
+    padding: 13px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.image-box input{
+    display: none;
+}
+
+.bio{
+    background-color: white;
+    max-width: 55vw;
+    max-height: 65vh;
+    border-radius: 20px;
+    padding: 25px 40px;
+}
+
+.bio p{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.bio textarea{
+    height: 150px;
+    width: 45vw;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.formbio{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.formbio .btns{
+    width: 45vw;
+    justify-content: flex-end;
+}
+
+.formbio .btns a{
+    margin: 0 15px;
+}
+
+.about{
+    background-color: rgb(194, 194, 194);
+    height: 80vh;
+    width: 60vw;
+    border-radius: 10px;
+    padding: 30px 20px  ;
+}
+
+.formabout{
+    width: 52vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-input{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.about input{
+    height: 30px;
+    width: 20vw;
+    padding: 0 15px;
+    outline: none;
+}
+
+.about select{
+    height: 35px;
+    width: 22.5vw;
+    padding: 0 15px;
+    outline: none;
+}
+
+.about .btns{
+    justify-content: flex-end;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
